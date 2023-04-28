@@ -1,9 +1,14 @@
+
+body{
+    background-color: rgb(207, 204, 204);
+}
+
 .first-page{
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    background-color: rgb(207, 204, 204);
+    background-color: white;
     border-radius: 20px;
 }
 #tribute-info{
@@ -12,7 +17,6 @@
     align-items: center;
 }
 .image{
-    background: white;
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 5px;
@@ -31,3 +35,38 @@
     width: 500px;
     line-height: 25px;
 }
+
+.quote {
+    color: #716040;
+    padding-top: 1em;
+    border-top: 1px solid #8c7851;
+    margin: 2em 4em;
+    text-align: center;
+  }
+  .headline {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    color: #020826;
+  }
+
+  .time{
+    font-weight: 700;
+  }
+  .quote > p {
+    margin-bottom: 0.5em;
+  }
+
+  .footer {
+    background-color: #eaddcf;
+    color:#716040;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1.5em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #f25042;
+  }
